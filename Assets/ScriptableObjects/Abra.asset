@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b26d3213d23ad147ae15e1c29cb378b, type: 3}
-  m_Name: TemirHan
+  m_Name: Abra
   m_EditorClassIdentifier: 
-  _CardName: Temirhan
-  _CardDescription: salamlar
-  _EnergyUse: 2
-  _CardPrice: 1
-  _CardDamage: 0
-  _Protect: 1
-  _CardPhoto: {fileID: 3439377161516823531, guid: 017358552baed444dbe63889632f2d28, type: 3}
+  _CardName: Abra
+  _CardDescription: AbraKaDabra
+  _EnergyUse: 31
+  _CardPrice: 0
+  _CardDamage: 74
+  _Protect: 0
+  _CardPhoto: {fileID: 7209304874421713978, guid: db9b5b14fe129934cbda1e3574f741e0, type: 3}

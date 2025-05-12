@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8cedaa7fc1768d244b69386b95d01d03
+guid: db9b5b14fe129934cbda1e3574f741e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8032624609490034836
-    second: real desk_0
+      213: 7209304874421713978
+    second: kart 4 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: real desk_0
+      name: kart 4 (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 923
+        y: 845
+        width: 248
+        height: 363
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 490e6be068d997f60800000000000000
-      internalID: 8032624609490034836
+      spriteID: a3cf56536989c0460800000000000000
+      internalID: 7209304874421713978
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      real desk_0: 8032624609490034836
+      kart 4 (1)_0: 7209304874421713978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
