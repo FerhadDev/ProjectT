@@ -45,11 +45,11 @@ public class ChessMan : MonoBehaviour
         float x = _xBoard;
         float y = _yBoard;
 
-        x *= 1.2f;
-        y *= 1.2f;
+        x *= 1.23f;
+        y *= 1.23f;
 
-        x += -4.24f;
-        y += -4.24f;
+        x += -4.3f;
+        y += -4.3f;
         this.transform.position = new Vector3(x, y, 1f);
     }
     public int GetXBoard()
