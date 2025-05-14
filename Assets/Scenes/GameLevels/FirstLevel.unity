@@ -329,7 +329,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -678,10 +678,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d82a26f706dabf144aac2d98d7c25e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Empty1: 1
+  Empty2: 1
+  Empty3: 1
   scripts:
   - {fileID: 11400000, guid: c12d27e05481b004a9977e95a9e4f155, type: 2}
   - {fileID: 11400000, guid: 046aa57943172ad479af76c85cd8f993, type: 2}
-  Card_Prefab: {fileID: 6676229803272225618, guid: b2acc0f5672b98942bb2c97b9fef6272, type: 3}
+  Card_Prefab: {fileID: 5026423018287652414, guid: 757108216364be244a1f9c188a38adac, type: 3}
+  Canva: {fileID: 703618748}
 --- !u!4 &1537559902
 Transform:
   m_ObjectHideFlags: 0
