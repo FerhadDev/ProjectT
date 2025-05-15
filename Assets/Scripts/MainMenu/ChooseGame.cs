@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class ChooseGame : MonoBehaviour
 {
     [Header("ChooseGameMode References")]
@@ -8,6 +8,10 @@ public class ChooseGame : MonoBehaviour
     public void PlayStoryMode()
     {
        _StoryMode.SetActive(true); 
+    }
+    public void LoadFirstLevel()
+    {
+        SceneManager.LoadScene(3);
     }
     
 }
