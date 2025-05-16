@@ -38,6 +38,15 @@ public class CardScript : MonoBehaviour
         }
         else
         {
+            CardScript[] cardScript = GameObject.FindObjectsByType<CardScript>(FindObjectsSortMode.None);
+            foreach (var i in cardScript)
+            {
+                bool test = i.anim.GetBool("SelectCard");
+                if (test == true && i != this)
+                {
+                    i.anim.SetBool("SelectCard", false);
+                }
+            }
             bool currentBool = anim.GetBool("SelectCard");
             anim.SetBool("SelectCard", !currentBool);
         }
